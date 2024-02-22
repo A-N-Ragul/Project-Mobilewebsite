@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 300px;
+  height: 420px;
+  border:  white;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 40px 20px;
+  background-color: white;
+  font-size: larger;
+  box-shadow: 0 5px 60px #c9caca;
+  
+}
+.card:hover{
+  transform: scale(1.1);
+  background-color:rgb(241, 236, 236);
+  color: #0c0c0c;
+
+  
+}
+
+.product img {
+  width: 250px;
+  align-items: center;
+}
+
+.product-name{
+  font-weight: 500;
+  color: black;
+  font-size: 22px;
+  font-family: 'Bree Serif', serif;
+}
+.product-price{
+  font-size: 23px;
+  display: flex;
+  padding-bottom: 5%;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  font-weight: 400;
+  font-size: 15px;
+  border-color: black;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 10px 40px #dadada;
+  background-color: white;
+  color: black;
+  width: 70%;
+  display: flex;
+  height: 30px;
+  cursor: pointer;
+  margin: 2px auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  justify-content: center;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+.product-del{
+    color: #757676;
+    padding: 2px;
+      font-size: 19px;
+     
+    
+} 
